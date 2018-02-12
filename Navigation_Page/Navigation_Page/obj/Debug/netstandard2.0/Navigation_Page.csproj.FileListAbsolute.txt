@@ -1,0 +1,13 @@
+C:\Users\sarda\source\repos\Navigation_Page\Navigation_Page\Navigation_Page\bin\Debug\netstandard2.0\Navigation_Page.deps.json
+C:\Users\sarda\source\repos\Navigation_Page\Navigation_Page\Navigation_Page\bin\Debug\netstandard2.0\Navigation_Page.dll
+C:\Users\sarda\source\repos\Navigation_Page\Navigation_Page\Navigation_Page\bin\Debug\netstandard2.0\Navigation_Page.pdb
+C:\Users\sarda\source\repos\Navigation_Page\Navigation_Page\Navigation_Page\obj\Debug\netstandard2.0\Navigation_Page.csprojResolveAssemblyReference.cache
+C:\Users\sarda\source\repos\Navigation_Page\Navigation_Page\Navigation_Page\obj\Debug\netstandard2.0\Navigation_Page.csproj.CoreCompileInputs.cache
+C:\Users\sarda\source\repos\Navigation_Page\Navigation_Page\Navigation_Page\obj\Debug\netstandard2.0\Navigation_Page.App.xaml.g.cs
+C:\Users\sarda\source\repos\Navigation_Page\Navigation_Page\Navigation_Page\obj\Debug\netstandard2.0\Navigation_Page.MainPage.xaml.g.cs
+C:\Users\sarda\source\repos\Navigation_Page\Navigation_Page\Navigation_Page\obj\Debug\netstandard2.0\Navigation_Page.Page1.xaml.g.cs
+C:\Users\sarda\source\repos\Navigation_Page\Navigation_Page\Navigation_Page\obj\Debug\netstandard2.0\Navigation_Page.Page2.xaml.g.cs
+C:\Users\sarda\source\repos\Navigation_Page\Navigation_Page\Navigation_Page\obj\Debug\netstandard2.0\Navigation_Page.AssemblyInfoInputs.cache
+C:\Users\sarda\source\repos\Navigation_Page\Navigation_Page\Navigation_Page\obj\Debug\netstandard2.0\Navigation_Page.AssemblyInfo.cs
+C:\Users\sarda\source\repos\Navigation_Page\Navigation_Page\Navigation_Page\obj\Debug\netstandard2.0\Navigation_Page.dll
+C:\Users\sarda\source\repos\Navigation_Page\Navigation_Page\Navigation_Page\obj\Debug\netstandard2.0\Navigation_Page.pdb

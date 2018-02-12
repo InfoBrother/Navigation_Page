@@ -1,0 +1,49 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="Navigation_Page.Page1"
+             BackgroundColor="White"
+             >
+    <ContentPage.Content>
+        <StackLayout Padding="5, 10" >
+            <Label 
+                Text="05 amazing places you won't believe exist on Earth"
+                HorizontalTextAlignment="Center"
+                BackgroundColor="#008080"
+                FontSize="Large"
+                TextColor="#fff"
+                Font="bold, 22"                   
+            />
+            
+            <Label 
+                Text="No1/5: Antelope Canyon, Arizona, USA" 
+                TextColor="#184757"
+                FontSize="Medium"
+                Font="bold, 18"   
+                
+            />
+
+            <Image 
+                Source="pic1.png"
+                HorizontalOptions="FillAndExpand"
+            />
+
+            <Label                  
+                Text="In the Navajo desert of Arizona, Antelope Canyon is a slot canyon made up of 
+  stunning cracks and corkscrews, creating a wonderful light show. A must-see for any amateur
+  photographer or Instagram addict."
+                HorizontalTextAlignment="Center" 
+                TextColor="#008080"
+                Font="bold, 16"                
+            />
+
+            <!--Next and Previous Button-->
+            <AbsoluteLayout BackgroundColor="#1d404c">
+                               <Button Text="Next" Clicked="nextbtn1" BackgroundColor="#184757" 
+                        AbsoluteLayout.LayoutBounds=".50, 1" AbsoluteLayout.LayoutFlags="PositionProportional"/>
+            </AbsoluteLayout>
+            
+
+        </StackLayout>
+    </ContentPage.Content>
+</ContentPage>

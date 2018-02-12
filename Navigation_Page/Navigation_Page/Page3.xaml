@@ -1,0 +1,51 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="Navigation_Page.Page3">
+    <ContentPage.Content>
+   
+        <StackLayout Padding="5, 10" >
+            <Label 
+                Text="05 amazing places you won't believe exist on Earth"
+                HorizontalTextAlignment="Center"
+                BackgroundColor="#008080"
+                FontSize="Large"
+                TextColor="#fff"
+                Font="bold, 22"                   
+            />
+
+            <Label 
+                Text="No3/5: Northern Lake Baikal, Russia" 
+                TextColor="#184757"
+                FontSize="Medium"
+                Font="bold, 18"   
+              
+            />
+
+            <Image 
+                Source="pic3.png"
+                HorizontalOptions="FillAndExpand"
+            />
+
+            <Label                  
+                Text="Another amazing lake, this one is located in southern Siberia and is the world's
+                largest freshwater bit of blue. The water round these parts freezes into sheets of turquoise
+                ice in winter that might look more at home in Superman's Fortress of Solitude."
+                HorizontalTextAlignment="Center" 
+                TextColor="#008080"
+                Font="bold, 16"                
+            />
+
+            <!--Next and Previous Button-->
+            <AbsoluteLayout BackgroundColor="#1d404c">
+                <Button Text="Previous" Clicked="prevbtn2" BackgroundColor="#184757" 
+                        AbsoluteLayout.LayoutBounds="0, 1" AbsoluteLayout.LayoutFlags="PositionProportional"/>
+
+                <Button Text="Next" Clicked="nextbtn3" BackgroundColor="#184757" 
+                        AbsoluteLayout.LayoutBounds="1, 1" AbsoluteLayout.LayoutFlags="PositionProportional"/>
+            </AbsoluteLayout>
+
+
+        </StackLayout>
+    </ContentPage.Content>
+</ContentPage>

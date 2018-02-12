@@ -1,0 +1,51 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="Navigation_Page.Page4">
+    <ContentPage.Content>
+
+        <StackLayout Padding="5, 10" >
+            <Label 
+                Text="05 amazing places you won't believe exist on Earth"
+                HorizontalTextAlignment="Center"
+                BackgroundColor="#008080"
+                FontSize="Large"
+                TextColor="#fff"
+                Font="bold, 22"                   
+            />
+
+            <Label 
+                Text="No4/5: Kuang Si Falls, Luang Prabang, Laos" 
+                TextColor="#184757"
+                FontSize="Medium"
+                Font="bold, 18"   
+              
+            />
+
+            <Image 
+                Source="pic4.png"
+                HorizontalOptions="FillAndExpand"
+            />
+
+            <Label                  
+                Text="Already a top holiday destination for backpackers, the Laotian city of 
+                Luang Prabang is temptingly close to Kuang Si Falls, a three tier splash 
+                spectacular with waters so clear and blue it'll be hard to resist jumping straight in."
+                HorizontalTextAlignment="Center" 
+                TextColor="#008080"
+                Font="bold, 16"                
+            />
+
+            <!--Next and Previous Button-->
+            <AbsoluteLayout BackgroundColor="#1d404c">
+                <Button Text="Previous" Clicked="prevbtn3" BackgroundColor="#184757" 
+                        AbsoluteLayout.LayoutBounds="0, 1" AbsoluteLayout.LayoutFlags="PositionProportional"/>
+
+                <Button Text="Next" Clicked="nextbtn5" BackgroundColor="#184757" 
+                        AbsoluteLayout.LayoutBounds="1, 1" AbsoluteLayout.LayoutFlags="PositionProportional"/>
+            </AbsoluteLayout>
+
+
+        </StackLayout>
+    </ContentPage.Content>
+</ContentPage>

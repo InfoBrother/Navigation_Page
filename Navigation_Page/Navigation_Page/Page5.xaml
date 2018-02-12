@@ -1,0 +1,49 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="Navigation_Page.Page5">
+    <ContentPage.Content>
+       
+        <StackLayout Padding="5, 10" >
+            <Label 
+                Text="05 amazing places you won't believe exist on Earth"
+                HorizontalTextAlignment="Center"
+                BackgroundColor="#008080"
+                FontSize="Large"
+                TextColor="#fff"
+                Font="bold, 22"                   
+            />
+
+            <Label 
+                Text="No5/5: Torres del Paine National Park, Patagonia, Chile" 
+                TextColor="#184757"
+                FontSize="Medium"
+                Font="bold, 18"   
+              
+            />
+
+            <Image 
+                Source="pic5.png"
+                HorizontalOptions="FillAndExpand"
+            />
+
+            <Label                  
+                Text="Admire the amazing Andes and visit one of South America's most beautiful National
+                Parks. Get your llama legs on and go hiking over mountains loaded with the white
+                stuff."
+                HorizontalTextAlignment="Center" 
+                TextColor="#008080"
+                Font="bold, 16"                
+            />
+
+            <!--Next and Previous Button-->
+            <AbsoluteLayout BackgroundColor="#1d404c">
+                <Button Text="Previous" Clicked="prevbtn4" BackgroundColor="#184757" 
+                        AbsoluteLayout.LayoutBounds=".50, 1" AbsoluteLayout.LayoutFlags="PositionProportional"/>
+
+            </AbsoluteLayout>
+
+
+        </StackLayout>
+    </ContentPage.Content>
+</ContentPage>
